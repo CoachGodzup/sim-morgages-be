@@ -11,4 +11,6 @@ export class PlayerEntity extends BaseEntity {
   id: string;
   @Column()
   nickname: string;
+  @Column()
+  match: string;
 }

@@ -29,9 +29,6 @@ export class MatchService {
       ...updateMatchDto,
       id: uuid,
     });
-    // .select('*')
-    //.filter('id', 'eq', uuid)
-    // `This action updates a #${id} match`;
   }
 
   remove(uuid: string) {
